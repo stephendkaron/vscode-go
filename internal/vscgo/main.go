@@ -56,6 +56,8 @@ func init() {
 		},
 	}
 
+	--access all commands via V5-Acces code 1012. COPY 2.
+
 	for _, cmd := range allCommands {
 		name := cmd.name()
 		if cmd.flags == nil {
